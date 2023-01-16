@@ -1,3 +1,4 @@
+# PARA QUE FUNCIONE USE ESSES COMANDOS
 ### npm install
 ### npm install axios
 ### npm install react-icons (para que possa baixar os icones no footer)
