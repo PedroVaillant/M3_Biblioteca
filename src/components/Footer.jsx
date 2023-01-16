@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                 </Link>
                 <div className='redesocias'>
-                    <h2>Nossas rede sociais</h2>
+                    <h2>Nossas redes sociais</h2>
                     <a href="/"><p><BsFacebook /> Facebook</p></a>
                     <a href="/"><p><BsInstagram /> Instagram</p></a>
                     <a href="/"><p><BsTwitter /> Twitter</p></a>

@@ -33,9 +33,9 @@ function Carrossel() {
         }}>
           <Carousel
             data={data}
-            time={5000}
+            time={8000}
             width="1850px"
-            height="500px"
+            height="350px"
             captionStyle={captionStyle}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
