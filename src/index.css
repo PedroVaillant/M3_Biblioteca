@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important; 
+}
+
+body {
+  background-color: white;
+  color: black; /*provisorio */
+}
+
+/* ============================== NAVBAR */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  background-color: yellow;
+  height: 125px;
+  width: 100%;
+}
+
+.reactlibmarca {
+  text-align: center;
+}
+
+.reactlibmarca h2 {
+  font-size: 26px;
+}
+
+.navbaropcoes ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.navbaropcoes li {
+  padding: 0 50px;
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+
+nav a:hover {
+  color: rgb(223, 114, 114);
+}
+
+/* =================================== FOOTER */
+footer {
+  color: black;
+  background-color: yellow;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: grid;
+  grid-template-areas: 
+  "atent loc contat"
+  "links redeSocial uni"
+  "logo logo logo";
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.reactlibmarcafooter{
+  text-align: center;
+  margin: 5px;
+}
+
