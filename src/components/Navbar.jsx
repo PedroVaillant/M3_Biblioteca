@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { BiSearchAlt2 } from 'react-icons/bi'
 
 const Navbar = () => {
     return (
@@ -14,9 +15,10 @@ const Navbar = () => {
             </Link>
             <div className='navbaropcoes'>
                 <ul>
+                    
                     <Link to="/livros"><li>Livros</li></Link>
                     <Link to="/sobre"><li>Sobre nós</li></Link>
-                    <Link to="/"><li>TESTE</li></Link>
+                    <li><input type="search" placeholder='Busque por um livro'/><button type='subimit'><BiSearchAlt2 /></button></li>
                 </ul>
             </div>
         </nav>
