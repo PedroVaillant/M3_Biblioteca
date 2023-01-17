@@ -1,7 +1,9 @@
 const Remover = () => {
     return (
-        <div>
-           Remover
+        <div className="removelivro">
+           <br /><br />
+           <h2>EDITAR UM LIVRO</h2>
+           <br /><br />
         </div>
     )
 }
