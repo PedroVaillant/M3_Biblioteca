@@ -2,7 +2,7 @@ const Remover = () => {
     return (
         <div className="removelivro">
            <br /><br />
-           <h2>EDITAR UM LIVRO</h2>
+           <h2>REMOVER UM LIVRO</h2>
            <br /><br />
         </div>
     )
