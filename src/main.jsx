@@ -9,6 +9,7 @@ import Sobre from './pages/Sobre'
 import Adicionar from './pages/BAdicionar'
 import Editar from './pages/BEditar'
 import Remover from './pages/BRemover'
+import Login from './pages/Login'
 
 import './index.css'
 
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='adicionar' element={<Adicionar />} />
           <Route path='editar' element={<Editar />} />
           <Route path='remover' element={<Remover />} />
+          <Route path= 'login' element={<Login />}/>
         </Route>
       </Routes>
     </BrowserRouter>
