@@ -6,9 +6,9 @@ import App from './App'
 import Home from './pages/Home'
 import Livros from './pages/Livros'
 import Sobre from './pages/Sobre'
-import Adicionar from './pages/Adicionar'
-import Editar from './pages/Editar'
-import Remover from './pages/Remover'
+import Adicionar from './pages/BAdicionar'
+import Editar from './pages/BEditar'
+import Remover from './pages/BRemover'
 
 import './index.css'
 
