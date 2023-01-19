@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API from "../axios/Config";
+import API from "../model/Config";
 import "../components/styles/lua.css";
 
 export default function Cadastro() {

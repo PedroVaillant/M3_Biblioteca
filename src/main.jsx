@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='adicionar' element={<Adicionar />} />
           <Route path='editar' element={<Editar />} />
           <Route path='remover' element={<Remover />} />
-          <Route path= 'login' element={<Login />}/>
+          <Route path='login' element={<Login />}/>
         </Route>
       </Routes>
     </BrowserRouter>
