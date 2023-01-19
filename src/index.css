@@ -93,6 +93,10 @@ footer a {
   color: white;
 }
 
+.contatos p {
+  color: black;
+}
+
 .reactlibmarcafooter{
   text-align: center;
   margin: 5px;

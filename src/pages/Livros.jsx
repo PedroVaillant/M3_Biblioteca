@@ -1,7 +1,7 @@
 // import axios from "axios";
 // import React from "react";
 
-// import BotaoLivros from "../components/BotaoLivros";
+// import BotaoLivros from "..0/components/BotaoLivros";
 
 // const baseURL = "https://m3bibliotecadb.onrender.com/Livros/2";
 
@@ -72,7 +72,6 @@ const Catalogo = () => {
               <h2 className={styles.tituloH2}>{post.titulo}</h2>
             </Link>
               <p className={styles.autor}>{post.autor}</p>
-              {/* <p className={styles.autor}>{post.sinopse}</p> */}
             <Link to={`/LivroID/editar/${post.id}`}>  
               <button className={styles.editar}>Editar</button>
             </Link>

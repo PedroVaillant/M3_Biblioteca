@@ -33,7 +33,7 @@ function Carrossel() {
         }}>
           <Carousel
             data={data}
-            time={8000}
+            time={5000}
             width="1850px"
             height="350px"
             captionStyle={captionStyle}
