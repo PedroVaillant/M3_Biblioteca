@@ -15,22 +15,22 @@ const Navbar = () => {
       </Link>
       <div className="navbaropcoes">
         <ul>
+          <Link to="/login">
+            <li>LOGIN</li>
+          </Link>
           <Link to="/livros">
-            <li>Livros</li>
+            <li>LIVROS</li>
           </Link>
-          <Link to="/sobre">
-            <li>Sobre nós</li>
-          </Link>
+          <li>
+            <Link to="/sobre">
+              <li>SOBRE NÓS</li>
+            </Link>
+          </li>
           <li>
             <input type="search" placeholder="Busque por um livro" />
             <button type="subimit">
               <BiSearchAlt2 />
             </button>
-          </li>
-          <li>
-            <Link to="/login">
-              <li>LOGIN</li>
-            </Link>
           </li>
         </ul>
       </div>
