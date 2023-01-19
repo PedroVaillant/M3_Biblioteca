@@ -3,7 +3,7 @@ import React from "react";
 
 import BotaoLivros from "../components/BotaoLivros";
 
-const baseURL = "https://m3jsonserver.onrender.com/sessaoRomance/4";
+const baseURL = "https://m3bibliotecadb.onrender.com/Livros/2";
 
 export default function GetLivros() {
   const [post, setPost] = React.useState(null);
@@ -19,9 +19,9 @@ export default function GetLivros() {
   return (
     <div>
       <h1>{post.titulo}</h1>
-      <p>{post.descrição}</p>
-      <p>{post.preco}</p>
+      <p>{post.genero}</p>
       <p>{post.autor}</p>
+      <p>{post.sinopse}</p>
       <br />
       <BotaoLivros />
     </div>

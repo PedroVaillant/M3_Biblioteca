@@ -2,22 +2,21 @@ import axios from "axios";
 import React from "react";
 import { Link } from "react-router-dom";
 
-const baseURL = "https://m3jsonserver.onrender.com/sessaoRomance";
+const baseURL = "https://m3bibliotecadb.onrender.com/Livro";
 
 export default function Editar() {
   const [post, setPost] = React.useState(null);
 
   React.useEffect(() => {
-    axios.get(`${baseURL}/2`).then((response) => {
+    axios.get(`${baseURL}/1`).then((response) => {
       setPost(response.data);
     });
   }, []);
 
   function updatePost() {
     axios
-      .put(`${baseURL}/2`, {
-        title: "Hello World!",
-        body: "This is an updated post."
+      .put(`${baseURL}/1`, {
+        capa: "https://m.media-amazon.com/images/I/51phf-WQthL._SY346_.jpg"
       })
       .then((response) => {
         setPost(response.data);

@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { Link } from "react-router-dom";
 
-const baseURL = "https://m3jsonserver.onrender.com/sessaoRomance";
+const baseURL = "https://m3bibliotecadb.onrender.com/Livros";
 
 export default function Adicionar() {
   const [post, setPost] = React.useState(null);
