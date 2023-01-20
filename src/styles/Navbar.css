@@ -11,6 +11,7 @@ nav {
   nav input{
     font-weight: bold;
     height: 30px;
+    width: 180px;
     padding: 10px;
     border: none;
   }
@@ -21,6 +22,7 @@ nav {
   }
   
   nav button {
+    padding: 0 0 1px;
     height: 30px;
     width: 30px;
     color: #0cbccc;
@@ -34,7 +36,7 @@ nav {
   }
   
   .reactlibmarca h2 {
-    font-size: 26px;
+    font-size: 25px;
   }
   
   .navbaropcoes ul {
