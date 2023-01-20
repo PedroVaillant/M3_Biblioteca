@@ -18,9 +18,9 @@ const Footer = () => {
                 </Link>
                 <div className='redesocias'>
                     <h2>Nossas redes sociais</h2>
-                    <a href="/"><p><BsFacebook /> Facebook</p></a>
-                    <a href="/"><p><BsInstagram /> Instagram</p></a>
-                    <a href="/"><p><BsTwitter /> Twitter</p></a>
+                    <a href="https://web.facebook.com"><p><BsFacebook /> Facebook</p></a>
+                    <a href="https://www.instagram.com"><p><BsInstagram /> Instagram</p></a>
+                    <a href="https://twitter.com"><p><BsTwitter /> Twitter</p></a>
                 </div>
                 <div className='contatos'>
                     <h2>Contatos</h2>
