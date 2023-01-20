@@ -24,7 +24,7 @@ const Navbar = () => {
             <li>LIVROS</li>
           </Link>
           <li>
-            <Link to="/sobre">
+            <Link to="/sobrenos">
               <li>SOBRE NÓS</li>
             </Link>
           </li>

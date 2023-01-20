@@ -1,7 +1,8 @@
 import API from "../model/API";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import styles from "./Livros.module.css"
+
+import styles from "./Catalogo.module.css"
 
 const CatalogoLivros = () => {
 
@@ -38,7 +39,7 @@ const CatalogoLivros = () => {
           
           <div className={styles.item} key={post.id}>
             <Link to={`/Livro/${post.id}`}>
-              <img src={`${post.capa}`} className={styles.capalivro}/>
+              <img src={`${post.capa}`} className={styles.imgItem}/>
               <h2 className={styles.tituloH2}>{post.titulo}</h2>
             </Link>
               <p className={styles.autor}>{post.autor}</p>

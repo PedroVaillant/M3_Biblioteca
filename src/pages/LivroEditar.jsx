@@ -1,7 +1,7 @@
 import API from "../model/API";
 
 import { useState, useEffect } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, useNavigate} from "react-router-dom";
 
 import style from "./EditarProduto.module.css"
 
