@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background-color: #0cbccc;
+    height: 125px;
+    width: 100%;
+  }
+  
+  nav input{
+    font-weight: bold;
+    height: 30px;
+    padding: 10px;
+    border: none;
+  }
+  
+  .reactlibmarca {
+    text-align: center;
+    color: white;
+  }
+  
+  nav button {
+    height: 30px;
+    width: 30px;
+    color: #0cbccc;
+    background-color: white;
+    border: none;
+    transition: 1s;
+  }
+  
+  nav button:hover{
+    background-color: blue;
+  }
+  
+  .reactlibmarca h2 {
+    font-size: 26px;
+  }
+  
+  .navbaropcoes ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+  }
+  
+  .navbaropcoes li {
+    padding: 0 20px;
+    font-size: 25px;
+    color: white;
+    transition: 1s;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }

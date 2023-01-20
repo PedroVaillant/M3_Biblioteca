@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { BsFacebook, BsInstagram, BsTwitter, BsFillTelephoneFill } from "react-icons/bs";
 
+import Styles from '../styles/Footer.css'
+
 const Footer = () => {
     return (
         <div>

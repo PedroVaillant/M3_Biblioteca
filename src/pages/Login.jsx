@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API from "../model/Config";
-import "../components/styles/lua.css";
+
+import API from "../model/API";
+
+import "../styles/Login.css";
 
 export default function Cadastro() {
   const [Usuario, setUsuario] = useState("");

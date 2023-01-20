@@ -4,11 +4,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import App from './App'
 import Home from './pages/Home'
-import Livros from './pages/Livros'
-import Sobre from './pages/Sobre'
-import Adicionar from './pages/BAdicionar'
-import Editar from './pages/BEditar'
-import Remover from './pages/BRemover'
+import CatalogoLivros from './pages/CatalogoLivros'
+import LivroID from './pages/LivroID'
+import LivroAdicionar from './pages/LivroAdicionar'
+import LivroEditar from './pages/LivroEditar'
+import Sobrenos from './pages/SobreNos'
 import Login from './pages/Login'
 
 import './index.css'
@@ -19,12 +19,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route element={<App />}>
           <Route path='/' element={<Home />} />
-          <Route path='livros' element={<Livros />} />
-          <Route path='sobre' element={<Sobre />} />
-          <Route path='adicionar' element={<Adicionar />} />
-          <Route path='editar' element={<Editar />} />
-          <Route path='remover' element={<Remover />} />
-          <Route path='login' element={<Login />}/>
+          <Route path='/catalogolivros' element={<CatalogoLivros />} />
+          <Route path='/livro/:id' element={<LivroID />}/>
+          <Route path='/adicionarlivro' element={<LivroAdicionar />} />
+          <Route path='/livros/editarlivro/:id' element={<LivroEditar />} />
+          <Route path='/sobrenos' element={<Sobrenos />} />
+          <Route path='/login' element={<Login />}/>
         </Route>
       </Routes>
     </BrowserRouter>

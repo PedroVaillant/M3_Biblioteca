@@ -1,0 +1,28 @@
+footer {
+    color: white;
+    background-color: #0cbccc;
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    display: grid;
+    grid-template-areas: 
+    "atent loc contat"
+    "links redeSocial uni"
+    "logo logo logo";
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contatos p {
+    color: black;
+  }
+  
+  .reactlibmarcafooter{
+    text-align: center;
+    margin: 5px;
+  }

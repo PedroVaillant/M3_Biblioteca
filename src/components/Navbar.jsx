@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { BiSearchAlt2 } from "react-icons/bi";
 
+import Styles from '../styles/Navbar.css'
+
 const Navbar = () => {
   return (
     <nav id="navbar">
@@ -18,7 +20,7 @@ const Navbar = () => {
           <Link to="/login">
             <li>LOGIN</li>
           </Link>
-          <Link to="/livros">
+          <Link to="/catalogolivros">
             <li>LIVROS</li>
           </Link>
           <li>
