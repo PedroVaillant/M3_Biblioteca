@@ -1,40 +1,21 @@
-.botoeslivros{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    cursor: pointer;
-    }
-    
-    #botaoamarelo{
-      border: none;
-      cursor: pointer;
-      background-color: yellow;
-      font-size: 25px;
-      font-weight: bold;
-      border-radius: 5px;
-      width: 350px;
-      height: 30px;
-      transition: 0.5s;
-    }
-    
-    #botaoamarelo:hover{
-      color: white;
-      background-color: green;
-    }
-    
-    #botaovermelho{
-      border: none;
-      cursor: pointer;
-      background-color: red;
-      font-size: 25px;
-      font-weight: bold;
-      border-radius: 5px;
-      width: 350px;
-      height: 30px;
-      transition: 0.5s;
-    }
-    
-    #botaovermelho:hover{
-      color: white;
-      background-color: black;
-    }
+.botoeslivros {
+  text-align: center;
+  cursor: pointer;
+}
+
+#botaoamarelo {
+  border: none;
+  cursor: pointer;
+  background-color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 350px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+#botaoamarelo:hover {
+  color: white;
+  background-color: green;
+}

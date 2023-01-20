@@ -20,7 +20,7 @@ const Footer = () => {
                     <h2>Nossas redes sociais</h2>
                     <a href="https://web.facebook.com"><p><BsFacebook /> Facebook</p></a>
                     <a href="https://www.instagram.com"><p><BsInstagram /> Instagram</p></a>
-                    <a href="https://twitter.com"><p><BsTwitter /> Twitter</p></a>
+                    <a href="https://twitter.co "><p><BsTwitter /> Twitter</p></a>
                 </div>
                 <div className='contatos'>
                     <h2>Contatos</h2>

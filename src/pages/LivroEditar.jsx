@@ -3,7 +3,7 @@ import API from "../model/API";
 import { useState, useEffect } from "react";
 import { useParams, useNavigate} from "react-router-dom";
 
-import style from "./EditarProduto.module.css"
+import style from "../styles/LivroEditar.module.css"
 
 const LivroEditar = () => {
   const navigate = useNavigate();

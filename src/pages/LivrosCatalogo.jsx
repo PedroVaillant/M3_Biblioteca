@@ -1,8 +1,11 @@
-import API from "../model/API";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import styles from "./Catalogo.module.css"
+import API from "../model/API";
+import BotaoLivros from "../components/BotaoLivros";
+
+import styles from '../styles/LivrosCatalogo.module.css'
+
 
 const CatalogoLivros = () => {
 
@@ -21,13 +24,20 @@ const CatalogoLivros = () => {
     }
   };
 
+  // const postDelete = async (id) => {
+  //   await API.delete(`/livros/${id}`)
+  //     .then(res => console.log('Deletado com Sucesso', res))
+  //     .catch(err => console.log(err))
+  //   setPosts(posts.filter(post => post.id !== id))
+  // };
+
   useEffect(() => {
     getPosts();
   }, []);
 
   return (
     <div>
-
+      <BotaoLivros />
       
       <div className={styles.catalogo}>
       {posts.length === 0 ? (
@@ -45,6 +55,9 @@ const CatalogoLivros = () => {
               <p className={styles.autor}>{post.autor}</p>
             <Link to={`/livros/editarlivro/${post.id}`}>  
               <button className={styles.editar}>Editar</button>
+              {/* <div>
+              <button onClick={() => postDelete(post.id)} className={styles.autor}>Deletar</button>
+              </div> */}
             </Link>
           </div>
 

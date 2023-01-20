@@ -1,10 +1,10 @@
-import API from "../model/API";
-
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom"
 
-import styles from './Produto.module.css'
+import API from "../model/API";
+
+import styles from '../styles/LivroID.module.css'
 
 
 const LivroID = () => {
