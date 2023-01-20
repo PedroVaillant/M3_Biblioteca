@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link to="/">
         <div className="reactlibmarca">
           <h2>
-            <img src="./img/icon.png" width="85" height="80" />
+            <img src="../img/icon.png" width="85" height="80" />
             <br />
             React Books
           </h2>

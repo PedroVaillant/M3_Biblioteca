@@ -1,7 +1,10 @@
-import API from "../model/API";
-
 import { useState, useEffect } from "react";
-import { useParams, useNavigate} from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
+import { BiSave, BiArrowBack } from "react-icons/bi"
+
+
+
+import API from "../model/API";
 
 import style from "../styles/LivroEditar.module.css"
 
@@ -27,7 +30,7 @@ const LivroEditar = () => {
       setGenero(data.genero);
       setAutor(data.autor);
       setSinopse(data.sinopse);
-    
+
     }
     catch (error) {
       console.log(error);
@@ -53,8 +56,8 @@ const LivroEditar = () => {
   return (
     <div>
       <br /><br />
-      <form onSubmit={(e) => editar(e)} className={style.createPost}>
-        <h1 className={style.h2createPost}>Editando: {titulo}</h1>
+      <form onSubmit={(e) => editar(e)} className={style.editback}>
+        <h1 className={style.showedit}>Editando: "{titulo}"</h1>
         <div className={style.cols}>
           <section className={style.col1}>
             <div>
@@ -66,7 +69,7 @@ const LivroEditar = () => {
                 onChange={(e) => setTitulo(e.target.value)}
                 value={titulo || ""}
               />
-            </div>  
+            </div>
             <div>
               <label htmlFor="genero">Gênero:</label>
               <input
@@ -94,7 +97,7 @@ const LivroEditar = () => {
                 type="text"
                 name="sinopse"
                 id="sinopse"
-                placeholder="Digite o país"
+                placeholder="Digite a sinopse"
                 onChange={(e) => setSinopse(e.target.value)}
                 value={sinopse || ""}
               />
@@ -112,9 +115,17 @@ const LivroEditar = () => {
             </div>
           </section>
         </div>
-        <input type="submit" value="Salvar" className={style.botaoCreatePost} />
+        <div className={style.botoesedit}>
+          <Link to="/catalogolivros">
+            <button className={style.beditvoltar}><BiArrowBack /></button>
+          </Link>
+          <Link to="/catalogolivros">
+            <button onClick={(e) => editar(e)} className={style.beditsalvar}><BiSave /></button>
+          </Link>
+        </div>
       </form>
-      <br /><br /><br /><br />
+
+      <br /><br /><br /><br /><br /><br /><br />
     </div>
   );
 };

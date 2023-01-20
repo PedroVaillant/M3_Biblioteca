@@ -1,49 +1,51 @@
-.tituloH1 {
-    text-align: center;
-}
-.tituloH2 {
-    text-align: center;
-}
-a:link, a:visited, a:hover, a:active {
-    color: black;
-    text-decoration: none;
-}
 .catalogo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.livros {
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    background-color: #0cbccc4d;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+
 .imgItem {
     width: auto;
     height: 300px;
-    background-color: yellow;
+    border-radius: 10px;
 }
-.item {
-    margin: 10px;
-    padding: 10px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    background-color: rgb(217, 187, 132);
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
-    border-radius: 10px 0 0 10px;
-    border: 5px double rgb(217, 151, 113);
+
+.livros:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 5px;
+    box-shadow: 5px 10px;
 }
-.autor {
-    text-align: center;
+
+.loading{
+    margin: 276px;
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 100px;
+    width: 100px;
 }
-.valor {
-    text-align: center;
-}
-.editar, .adicionar {
-    margin-top: 10px;
-    padding: 10px;
-    height: fit-content;
-    color: white;
-    background-color: rgb(166, 105, 91);
-    border: 0;
-    cursor: pointer;
-    border-radius: 4px;
-}
+
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }

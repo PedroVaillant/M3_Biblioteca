@@ -1,21 +1,22 @@
-.botoeslivros {
+.botaoaddlivros {
   text-align: center;
   cursor: pointer;
 }
 
-#botaoamarelo {
+.botaoaddlivros button{
   border: none;
-  cursor: pointer;
-  background-color: yellow;
+  background-color: lime;
   font-size: 25px;
   font-weight: bold;
   border-radius: 5px;
-  width: 350px;
+  width: 300px;
   height: 30px;
   transition: 0.5s;
+  padding: 2px;
+  margin: 0 0 10px;
 }
 
-#botaoamarelo:hover {
+.botaoaddlivros button:hover {
   color: white;
   background-color: green;
 }
