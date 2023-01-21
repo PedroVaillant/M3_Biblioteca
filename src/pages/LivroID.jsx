@@ -39,8 +39,7 @@ const LivroID = () => {
     <div>
       <br /><br />
       {!post.titulo ? (
-        <div className={styles.loading}>
-        </div>
+        <P></P>
       ) : (
         <div className={styles.livro}>
 
