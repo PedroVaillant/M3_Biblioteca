@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom"
-import { BiEdit, BiSubdirectoryLeft } from "react-icons/bi"
+import { BiEdit, BiArrowBack } from "react-icons/bi"
 import { RiDeleteBin2Line } from "react-icons/ri"
 
 import API from "../model/API";
@@ -48,9 +48,9 @@ const Livro = () => {
 
           <div className={styles.botoeslivro}>
             <Link to={`/catalogolivros`}>
-              <button className={styles.botaoL1}><BiSubdirectoryLeft /></button>
+              <button className={styles.botaoL1}><BiArrowBack /></button>
             </Link>
-            <Link to={`/livros/editarlivro/${post.id}`}>
+            <Link to={`/livro/editarlivro/${post.id}`}>
               <button className={styles.botaoL2}><BiEdit /></button>
             </Link>
             <Link to={`/catalogolivros`}>

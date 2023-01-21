@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { ImPlus } from "react-icons/im"
+import { MdOutlineCleaningServices } from "react-icons/md"
+import { BiArrowBack } from "react-icons/bi"
 
 import API from "../model/API";
 
@@ -27,34 +30,40 @@ const LivroAdicionar = () => {
 
   return (
     <div>
-      <form onSubmit={(e) => createPost(e)} className={style.createPost}>
-       <h1 className={style.h2createPost}>Cadastro de novos livros</h1>
-       <div className={style.cols}>
-        <section className={style.col1}>
-        <div>
-          <label htmlFor="titulo">Título:</label>
-          <input type="text" name="titulo" id="titulo" placeholder="Digite o título" onChange={(e) => setTitulo(e.target.value)}/>
+      <br />
+      <form onSubmit={(e) => createPost(e)} className={style.addback}>
+        <h1 className={style.addtitulo}>Cadastrar um novo livro</h1>
+        <div className={style.addopcoes}>
+          <section>
+            <div>
+              <label htmlFor="titulo">Título:</label>
+              <input type="text" name="titulo" id="titulo" placeholder="Digite o título" onChange={(e) => setTitulo(e.target.value)} />
+            </div>
+            <div>
+              <label htmlFor="genero">Gênero:</label>
+              <input type="text" name="genero" id="genero" placeholder="Escolha o gênero" onChange={(e) => setGenero(e.target.value)} />
+            </div>
+            <div>
+              <label htmlFor="autor_a">Autor:</label>
+              <input type="text" name="autor" id="autor" placeholder="Digite o nome do autor" onChange={(e) => setAutor(e.target.value)} />
+            </div>
+            <div>
+              <label htmlFor="sinopse">Sinopse:</label>
+              <input type="text" name="sinopse" id="sinopse" placeholder="Digite a sinopse" onChange={(e) => setSinopse(e.target.value)} />
+            </div>
+            <div>
+              <label htmlFor="capa">Capa:</label>
+              <input type="text" name="capa" id="capa" placeholder="Digite o link da capa" onChange={(e) => setCapa(e.target.value)} />
+            </div>
+          </section>
         </div>
-        <div>
-          <label htmlFor="genero">Gênero:</label>
-          <input type="text" name="genero" id="genero" placeholder="Escolha o gênero" onChange={(e) => setGenero(e.target.value)}/>
+        <div className={style.addbotoes}>
+          <Link to="/catalogolivros">
+          <button className={style.addbvoltar}><BiArrowBack /></button>
+          </Link>
+          <button type="reset" className={style.addbreset}><MdOutlineCleaningServices /></button>
+          <button type="submit" className={style.addbotao}><ImPlus /></button>
         </div>
-        <div>
-          <label htmlFor="autor_a">Autor:</label>
-          <input type="text" name="autor" id="autor" placeholder="Digite o nome do autor" onChange={(e) => setAutor(e.target.value)}/>
-        </div>
-        <div>
-          <label htmlFor="sinopse">Sinopse:</label>
-          <input type="text" name="sinopse" id="sinopse" placeholder="Digite a sinopse" onChange={(e) => setSinopse(e.target.value)}/>
-        </div>
-        <div>
-          <label htmlFor="capa">Capa:</label>
-          <input type="text" name="capa" id="capa" placeholder="Digite o link da capa" onChange={(e) => setCapa(e.target.value)}/>
-        </div>
-        </section>
-        </div>
-        <input type="submit" value="Cadastrar" className={style.botaoCreatePost} />
-        <input type="reset" value="Limpar" className={style.botaoResetPost} />
       </form>
       <br />
     </div>
