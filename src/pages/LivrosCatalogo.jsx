@@ -43,7 +43,7 @@ const CatalogoLivros = () => {
 
             
             <div className={styles.livros} key={post.id}>
-              <Link to={`/Livro/${post.id}`}>
+              <Link to={`/livroID/${post.id}`}>
                 <img src={`${post.capa}`} className={styles.imgItem} />
                 <h2 className={styles.tituloH2}>{post.titulo}</h2>
               </Link>

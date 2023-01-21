@@ -7,7 +7,7 @@ import { RiDeleteBin2Line } from "react-icons/ri"
 
 import API from "../model/API";
 
-import styles from '../styles/LivroID.module.css'
+import Styles from '../styles/LivroID.module.css'
 
 const postDelete = async (id) => {
   await API.delete(`/livros/${id}`)
