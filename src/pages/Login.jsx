@@ -30,7 +30,7 @@ export default function Cadastro() {
       alert("Conta não existe.");
     } else {
       localStorage.setItem( 'logado','true' );
-      navigate('/Livros')
+      navigate('/catalogolivros')
     }
   }
 
