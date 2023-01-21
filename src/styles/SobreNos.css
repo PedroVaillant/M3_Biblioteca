@@ -13,3 +13,40 @@
   .sobrenos2{
     padding: 12.1px;
   }
+
+
+  .gridCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card{
+    text-align: center;
+    font-size: x-large;
+    background-color: #0cbccc4d;
+    border-radius: 10px 0 0 10px;
+    height: 100px;
+    width: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 30rem;
+    width: 18rem;
+    margin: 50px;
+  }
+
+  .card:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .card-img-top{
+    height: 20rem;
+    width: 100%;
+  }
