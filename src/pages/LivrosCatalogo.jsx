@@ -9,7 +9,6 @@ import styles from '../styles/LivrosCatalogo.module.css'
 
 const CatalogoLivros = () => {
 
-
   const [posts, setPosts] = useState([]);
 
   const getPosts = async () => {
@@ -38,18 +37,14 @@ const CatalogoLivros = () => {
           <div className={styles.loading}>
           </div>
         ) : (
-
           posts.map((post) => (
-
-            
+            <Link to={`/livro/${post.id}`}>
             <div className={styles.livros} key={post.id}>
-              <Link to={`/livroID/${post.id}`}>
                 <img src={`${post.capa}`} className={styles.imgItem} />
-                <h2 className={styles.tituloH2}>{post.titulo}</h2>
-              </Link>
+                <h2 className={styles.titulo}>{post.titulo}</h2>
               <p className={styles.autor}>{post.autor}</p>
             </div>
-
+            </Link>
           ))
         )}
       </div>
