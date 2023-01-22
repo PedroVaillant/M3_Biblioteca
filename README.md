@@ -15,28 +15,34 @@
 <img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=" />
 <img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=646CFF&logo=Vite&logoColor=FFFFFF&label=" />
 </div>
-<br>
+
 ## 👥 Membros do grupo
+
 <strong>Co-facilitadora: </strong>
 <br>
 <a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 <a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Kaylane de Mattos Silva 
+
 <strong>Pessoa Gestora de Conhecimento: </strong> 
 <br>
 <a href="https://github.com/VihProgramer"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 <a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Vitória da Silva Tavares 
+
 <strong>Pessoa Gestora de Gente e Engajamento: </strong>
 <br>
 <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 <a href="https://www.linkedin.com/in/pedrovaillant/"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Pedro Henrique dos Santos Vaillant
+
 <strong>Pessoa Colaboradora I: </strong>
 <br>
 <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 <a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Yuri Leonor Lopes 
+
 <strong>Pessoa Colaboradora II: </strong>
 <br>
 <a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 <a href="https://www.linkedin.com/in/manoel-igor-071190257/"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Manoel Igor Furtado Alves
+
 <strong>Pessoa Colaboradora III: </strong>
 <br>
 <a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
