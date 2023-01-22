@@ -36,7 +36,7 @@
 
 
 ##### Pessoa Colaboradora II
-<a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Manoel Igor Furtado Alves
+<a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>Manoel Igor Furtado Alves
 
 ##### Pessoa Colaboradora III
 <a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pamela de Oliveira Brasil
