@@ -17,8 +17,19 @@
 
 </div>
 
-## 👥 Membros do grupo
+---
 
+### 📚 Tema
+### 📰 Sobre o projeto
+### 💻 Tecnologia utilizada
+<div align="center" style="display: inline_block">
+<img align="center" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+</div>
+
+## 👥 Membros do grupo
 <strong>Co-facilitadora: </strong>
 <br>
 <a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
