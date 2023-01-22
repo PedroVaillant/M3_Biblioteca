@@ -22,7 +22,7 @@
 ### 📚 Tema
 ### 📰 Sobre o projeto
 
-### 💻 Tecnologia utilizada
+### 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
 <img align="center" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img align="center" src="https://img.shields.io/static/v1?style=for-the-badge&message=CSS3&color=1572B6&logo=CSS3&logoColor=FFFFFF&label=" />
