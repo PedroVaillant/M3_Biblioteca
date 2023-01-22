@@ -28,12 +28,18 @@
 <br>
 <a href="https://github.com/VihProgramer"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Vitória da Silva Tavares 
 
-<strong>Pessoa Gestora de Gente e Engajamento: <strong/>
+<strong>Pessoa Gestora de Gente e Engajamento: </strong>
 <br>
 <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pedro Henrique dos Santos Vaillant
 
-<strong>Pessoa Colaboradora I: </strong> Yuri Leonor Lopes <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
+<strong>Pessoa Colaboradora I: </strong>
+<br>
+<a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Yuri Leonor Lopes 
 
-<strong>Pessoa Colaboradora II: </strong> Manoel Igor Furtado Alves <a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
+<strong>Pessoa Colaboradora II: </strong>
+<br>
+<a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Manoel Igor Furtado Alves
 
-<strong>Pessoa Colaboradora III: </strong> Pamela de Oliveira Brasil <a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
+<strong>Pessoa Colaboradora III: </strong>
+<br>
+<a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pamela de Oliveira Brasil
