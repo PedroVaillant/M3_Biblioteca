@@ -39,4 +39,4 @@
 <a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Manoel Igor Furtado Alves
 
 ##### * Pessoa Colaboradora III
-<a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pamela de Oliveira Brasil
+<strong>ddddddd<strong/><a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pamela de Oliveira Brasil
