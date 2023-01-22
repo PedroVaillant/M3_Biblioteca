@@ -21,12 +21,12 @@
 
 <strong>Co-facilitadora: <strong/>
 <br>
- Kaylane de Mattos Silva <a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Kaylane de Mattos Silva
+ Kaylane de Mattos Silva <a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 
 
 <strong>Pessoa Gestora de Conhecimento: <strong/> 
 <br>
-Vitória da Silva Tavares <a href="https://github.com/VihProgramer"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Vitória da Silva Tavares
+Vitória da Silva Tavares <a href="https://github.com/VihProgramer"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 
 <strong>Pessoa Gestora de Gente e Engajamento: <strong/> Pedro Henrique dos Santos Vaillant <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 
