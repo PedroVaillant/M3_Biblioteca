@@ -19,16 +19,16 @@
 
 ## 👥 Membros do grupo
 
-<strong>Co-facilitadora: <strong/><a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Kaylane de Mattos Silva
+<strong>Co-facilitadora: <strong/><a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
 
 
 <strong>Pessoa Gestora de Conhecimento: <strong/><a href="https://github.com/VihProgramer"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
 
-<strong>Pessoa Gestora de Gente e Engajamento: <strong/><a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pedro Henrique dos Santos Vaillant
+<strong>Pessoa Gestora de Gente e Engajamento: <strong/><a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
 
 
-<strong>Pessoa Colaboradora I: <strong/><a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Yuri Leonor Lopes
+<strong>Pessoa Colaboradora I: <strong/><a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
 
-<strong>Pessoa Colaboradora II: <strong/><a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Manoel Igor Furtado Alves
+<strong>Pessoa Colaboradora II: <strong/><a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
 
-<strong>Pessoa Colaboradora III: <strong/><a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pamela de Oliveira Brasil
+<strong>Pessoa Colaboradora III: <strong/><a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
