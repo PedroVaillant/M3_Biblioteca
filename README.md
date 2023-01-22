@@ -31,4 +31,6 @@
 
 <strong>Pessoa Colaboradora II: <strong/><a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
 
-<strong>Pessoa Colaboradora III: <strong/><a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
+
+<div align="left" style="display: inline_block"><strong>Pessoa Colaboradora III: <strong/></div>
+<a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a><div align="right" style="display: inline_block">Vitória da Silva Tavares</div>
