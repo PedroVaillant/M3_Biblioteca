@@ -19,24 +19,24 @@
 
 ## 👥 Membros do grupo
 
-#### Co-facilitadora
+#### * Co-facilitadora
 <a href="https://github.com/kaymattos"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Kaylane de Mattos Silva
 
 
-##### Pessoa Gestora de Conhecimento
+##### * Pessoa Gestora de Conhecimento
 <a href="https://github.com/VihProgramer"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Vitória da Silva Tavares
 
 
-##### Pessoa Gestora de Gente e Engajamento
+##### * Pessoa Gestora de Gente e Engajamento
 <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pedro Henrique dos Santos Vaillant
 
 
-##### Pessoa Colaboradora I
+##### * Pessoa Colaboradora I
 <a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Yuri Leonor Lopes
 
 
-##### Pessoa Colaboradora II
+##### * Pessoa Colaboradora II
 <a href="https://github.com/Man-noel"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Manoel Igor Furtado Alves
 
-##### Pessoa Colaboradora III
+##### * Pessoa Colaboradora III
 <a href="https://github.com/PamelaBr"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a> Pamela de Oliveira Brasil
