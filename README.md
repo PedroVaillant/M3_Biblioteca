@@ -19,7 +19,6 @@
 
 ---
 
-### 📚 Tema
 ### 📰 Sobre o projeto
 
 ### 💻 Tecnologias utilizadas
