@@ -59,3 +59,4 @@
 ### npm i react-carousel-minimal (e para fazer o carrossel funcionar) https://reactjsexample.com/easy-to-use-responsive-and-customizable-carousel-component-for-react/
 
 #Teste https://app.netlify.com/
+https://vitejs.dev/guide/static-deploy.html
