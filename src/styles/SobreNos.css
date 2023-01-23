@@ -38,6 +38,7 @@
     height: 30rem;
     width: 18rem;
     margin: 50px;
+    transition: 0.5s;
   }
 
   .card:hover{
