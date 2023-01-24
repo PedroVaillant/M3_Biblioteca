@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import API from "../model/API";
 
@@ -8,7 +8,7 @@ import "../styles/Login.css";
 export default function Cadastro() {
   const [Usuario, setUsuario] = useState("");
   const [Senha, setSenha] = useState("");
-  const navigate = useNavigate();  
+  const navigate = useNavigate();
   const [ListaUsuarios, setListaUsuarios] = useState([]);
   useEffect(() => {
     API.get("/Usuarios").then((e) => setListaUsuarios(e.data));
@@ -29,14 +29,17 @@ export default function Cadastro() {
     if (e === undefined) {
       alert("Conta não existe.");
     } else {
-      localStorage.setItem( 'logado','true' );
+      localStorage.setItem('logado', 'true');
       navigate('/catalogolivros')
     }
   }
 
   return (
-        <div className="reactlibmarca">
+    <div className="reactlogin">   
+    <br />
       <form>
+        <h1>Entre na sua conta</h1>
+        <br />
         <div class="form-group">
           <label for="inputUsuario"></label>
           <input
@@ -45,7 +48,7 @@ export default function Cadastro() {
             type="text"
             class="form-control"
             id="inputUsuario"
-            placeholder="Usuario"
+            placeholder="Usuário"
           />
         </div>
         <div class="form-group">
@@ -59,10 +62,17 @@ export default function Cadastro() {
             placeholder="Senha"
           />
         </div>
-        <button type="button" onClick={validarUsuario} class="btn btn-primary">
-          Enviar
-        </button>
+        <br />
+        <button type="button" className="btnentrar" onClick={validarUsuario}>Entrar</button>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <Link to="/criarconta">
+        <button className="btncriarconta">Criar uma conta</button>
+        </Link>
       </form>
+      <br />
     </div>
   );
 }

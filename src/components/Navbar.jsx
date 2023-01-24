@@ -28,12 +28,12 @@ const Navbar = () => {
               <li>SOBRE NÓS</li>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <input type="search" placeholder="Busque por um livro" />
             <button type="subimit">
               <BiSearchAlt2 />
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

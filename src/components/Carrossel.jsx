@@ -3,13 +3,10 @@ import { Carousel } from 'react-carousel-minimal';
 function Carrossel() {
  const data = [
     {
-      image: "./img/Teste1.png",
+      image: "./img/Resumodelivros.png",
     },
     {
-      image: "./img/Teste2.png",
-    },
-    {
-      image: "./img/Teste3.png",
+      image: "./img/BookLover.png",
     },
     // {
     //   image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
