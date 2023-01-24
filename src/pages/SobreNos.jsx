@@ -4,8 +4,8 @@ const Sobrenos = () => {
     return (
         <div className="sobrenos">
             <div className="sobrenos1">
-                <h2>LOREM</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facere, provident dolorum rerum, modi labore alias unde placeat blanditiis praesentium atque asperiores, non laborum omnis inventore totam aspernatur commodi veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facere, provident dolorum rerum, modi labore alias unde placeat blanditiis praesentium atque asperiores, non laborum omnis inventore totam aspernatur commodi veritatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facere, provident dolorum rerum, modi labore alias unde placeat blanditiis praesentium atque asperiores, non laborum omnis inventore totam aspernatur commodi veritatis!</p>
+                <h2>Nossa dedicação </h2>
+                <p>Para esse site nos tivemos de fazer algo as pessoas que gostam de ler, para que fiquem informados sobre qual assunto e discutido naquele livro, com uma pequena sinopse, seu gênero e quem e o autor da obra, e com isso contamos com parcerias para que possamos entregar as informações o mais rápido possível</p>
             </div>
             <div className='gridCards'>
                 <div className='row'>
@@ -15,8 +15,8 @@ const Sobrenos = () => {
                             <h5>Co-facilitadora</h5>
                             <p>Kaylane</p>
                             <ul>
-                               <a href='https://github.com/kaymattos'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a> 
-                               <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a> 
+                                <a href='https://github.com/kaymattos'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a>
+                                <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a>
                             </ul>
                         </div>
                     </div>
@@ -26,8 +26,8 @@ const Sobrenos = () => {
                             <h6>Pessoa Gestora de Conhecimento</h6>
                             <p>Vitória</p>
                             <ul>
-                               <a href='https://github.com/VihProgramer'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a> 
-                               <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a> 
+                                <a href='https://github.com/VihProgramer'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a>
+                                <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a>
                             </ul>
                         </div>
                     </div>
@@ -37,8 +37,8 @@ const Sobrenos = () => {
                             <h6>Pessoa Gestora de Gente e Engajamento</h6>
                             <p>Pedro</p>
                             <ul>
-                               <a href='https://github.com/PedroVaillant'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a> 
-                               <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a> 
+                                <a href='https://github.com/PedroVaillant'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a>
+                                <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a>
                             </ul>
                         </div>
                     </div>
@@ -50,8 +50,8 @@ const Sobrenos = () => {
                             <h5>Pessoa Colaboradora I</h5>
                             <p>Yuri</p>
                             <ul>
-                               <a href='https://github.com/yuurii75'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a> 
-                               <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a> 
+                                <a href='https://github.com/yuurii75'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a>
+                                <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a>
                             </ul>
                         </div>
                     </div>
@@ -61,8 +61,8 @@ const Sobrenos = () => {
                             <h5>Pessoa Colaboradora II</h5>
                             <p>Manoel</p>
                             <ul>
-                               <a href='https://github.com/Man-noel'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a> 
-                               <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a> 
+                                <a href='https://github.com/Man-noel'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a>
+                                <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a>
                             </ul>
                         </div>
                     </div>
@@ -72,8 +72,8 @@ const Sobrenos = () => {
                             <h5>Pessoa Colaboradora III</h5>
                             <p>Pamela</p>
                             <ul>
-                               <a href='https://github.com/PamelaBr'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a> 
-                               <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a> 
+                                <a href='https://github.com/PamelaBr'><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' width="20"></img> Github</li></a>
+                                <a href=''><li><img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg' width="20"></img> Linkedin</li></a>
                             </ul>
                         </div>
                     </div>
