@@ -10,7 +10,7 @@ import LivroAdicionar from './pages/LivroAdicionar'
 import LivroEditar from './pages/LivroEditar'
 import Sobrenos from './pages/SobreNos'
 import Login from './pages/Login'
-import CriarConta from './pages/Criarconta'
+import NovaConta from './pages/NovaConta'
 
 import './styles/index.css'
 
@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/livro/editarlivro/:id' element={<LivroEditar />} />
           <Route path='/sobrenos' element={<Sobrenos />} />
           <Route path='/login' element={<Login />} />
-          <Route path='/criarconta' element={<CriarConta />} />
+          <Route path='/novaconta' element={<NovaConta />} />
         </Route>
       </Routes>
     </BrowserRouter>

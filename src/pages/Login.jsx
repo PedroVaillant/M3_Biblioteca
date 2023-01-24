@@ -68,7 +68,7 @@ export default function Cadastro() {
         <br />
         <hr />
         <br />
-        <Link to="/criarconta">
+        <Link to="/novaconta">
         <button className="btncriarconta">Criar uma conta</button>
         </Link>
       </form>
