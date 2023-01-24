@@ -44,7 +44,7 @@
 
 <strong>Pessoa Gestora de Gente e Engajamento: </strong>
 <br>
-<a href="https://github.com/yuurii75"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
+<a href="https://github.com/PedroVaillant"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><a>
 <a href="https://www.linkedin.com/in/pedrovaillant/"><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Pedro Henrique dos Santos Vaillant
 
 <strong>Pessoa Colaboradora I: </strong>

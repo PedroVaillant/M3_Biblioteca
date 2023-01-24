@@ -4,6 +4,10 @@
     padding: 15px 100px 0 100px;
     text-align: justify;
   }
+
+.sobrenos ul{
+  list-style: none;
+}
   
   .sobrenos h2{
     text-align: center; 
@@ -46,6 +50,10 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+.card p{
+  padding: 10px;
+}
 
   .card-img-top{
     height: 20rem;
