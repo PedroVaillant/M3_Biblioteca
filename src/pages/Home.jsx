@@ -59,7 +59,7 @@ const Home = () => {
         </Link>
       </div>
       <div>
-        <h1>Visite nossas lojas parceiras</h1>
+        <h1>Visite esses locais para ler esses livros</h1>
         <div className={styles.catalogolojas}>
           {posts.length === 0 ? (
             <div></div>
