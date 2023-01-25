@@ -67,6 +67,18 @@ const Livro = () => {
                 <label for="sinopse">Sinopse:</label>
                 <p id="sinopse">{post.sinopse}</p>
               </div>
+{/*              <hr />
+
+ 
+              <div className={styles.compra}>
+                <p className={styles.preco}>{post.preco}</p>
+                <p className={styles.desconto}>{post.desconto}</p>
+              <a href={post.site}>
+                  <button>Comprar agora</button>
+                </a>
+                </div> */}
+
+
             </div>
         </div>
       )}

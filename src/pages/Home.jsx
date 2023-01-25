@@ -31,7 +31,7 @@ const Home = () => {
     <div className={styles.home}>
       <Carrossel />
       <div className={styles.maislidos}>
-        <h1>Mais Lidos</h1>
+        <h1>Mais lidos</h1> {/* Mais procurados */}
         <div className={styles.maislidosimg}>
           <Link to="/livro/1">
             <img src="https://m.media-amazon.com/images/I/51phf-WQthL._SY346_.jpg"></img>
@@ -59,7 +59,7 @@ const Home = () => {
         </Link>
       </div>
       <div>
-        <h1>Visite esses locais para ler esses livros</h1>
+         <h1>Visite esses locais para ler esses livros</h1>  {/* Lojas parceiras */}
         <div className={styles.catalogolojas}>
           {posts.length === 0 ? (
             <div></div>
