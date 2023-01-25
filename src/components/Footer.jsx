@@ -9,7 +9,7 @@ const Footer = () => {
             <footer>
                 <Link to="/">
                     <div className='reactlibmarcafooter'>
-                    <img src="../img/ReactBooksLogo.png" width="110" height="100" />
+                    <img src="https://user-images.githubusercontent.com/113939119/214470755-b7208d2f-bcaa-4ad6-911e-92145e0e6db9.png" width="110" height="100" />
                     </div>
                 </Link>
                 <div className='redesocias'>
