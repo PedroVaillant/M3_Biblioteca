@@ -5,14 +5,10 @@ import Styles from '../styles/Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav id="navbar">
+    <nav>
       <Link to="/">
         <div className="reactlibmarca">
-          <h2>
-            <img src="../img/icon.png" width="85" height="80" />
-            <br />
-            React Books
-          </h2>
+            <img src="../img/ReactBooksLogo.png" width="150" height="150" />
         </div>
       </Link>
       <div className="navbaropcoes">

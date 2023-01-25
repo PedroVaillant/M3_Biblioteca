@@ -6,7 +6,7 @@ import API from "../model/API";
 
 import styles from "../styles/Home.module.css";
 
-const CatalogoLivros = () => {
+const Home = () => {
   const [posts, setPosts] = useState([]);
 
   const getPosts = async () => {
@@ -81,4 +81,4 @@ const CatalogoLivros = () => {
   );
 };
 
-export default CatalogoLivros;
+export default Home;

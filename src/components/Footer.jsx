@@ -6,14 +6,10 @@ import Styles from '../styles/Footer.css'
 const Footer = () => {
     return (
         <div>
-            <footer id='footer'>
+            <footer>
                 <Link to="/">
                     <div className='reactlibmarcafooter'>
-                    <h2>
-                        <img src="./img/icon.png" width="75" height="70" />
-                        <br />
-                            React Books
-                        </h2>
+                    <img src="../img/ReactBooksLogo.png" width="110" height="100" />
                     </div>
                 </Link>
                 <div className='redesocias'>

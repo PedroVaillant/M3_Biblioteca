@@ -1,9 +1,9 @@
-.botaoaddlivros {
+#btnaddlivro {
   text-align: center;
   cursor: pointer;
 }
 
-.botaoaddlivros button{
+#btnaddlivro button{
   border: none;
   background-color: lime;
   font-size: 25px;
@@ -16,7 +16,7 @@
   margin: 0 0 10px;
 }
 
-.botaoaddlivros button:hover {
+#btnaddlivro button:hover {
   color: white;
   background-color: green;
 }

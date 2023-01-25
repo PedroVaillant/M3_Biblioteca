@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import API from "../model/API";
-import BotaoAddLivros from "../components/BotaoAddLivros";
+
 
 import styles from '../styles/LivrosCatalogo.module.css'
+import BtnAddLivro from "../components/BtnAddLivro";
 
 
 const CatalogoLivros = () => {
@@ -29,7 +30,7 @@ const CatalogoLivros = () => {
 
   return (
     <div>
-      <BotaoAddLivros />
+      <BtnAddLivro />
       <br />
 
       <div className={styles.catalogo}>

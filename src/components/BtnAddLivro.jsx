@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { AiFillPlusCircle } from "react-icons/ai"
 
-import Styles from '../styles/BotaoAddLivros.css'
+import Styles from '../styles/BtnAddLivro.css'
 
-const BotaoAddLivros = () => {
+const BtnAddLivro = () => {
   return (
-    <div className="botaoaddlivros">
+    <div id="btnaddlivro">
         <Link to="/adicionarlivro">
           <button><AiFillPlusCircle /></button>
         </Link>
@@ -13,4 +13,4 @@ const BotaoAddLivros = () => {
   );
 };
 
-export default BotaoAddLivros;
+export default BtnAddLivro;

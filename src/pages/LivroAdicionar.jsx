@@ -44,7 +44,7 @@ const LivroAdicionar = () => {
               <input type="text" name="genero" id="genero" placeholder="Escolha o gênero" onChange={(e) => setGenero(e.target.value)} />
             </div>
             <div>
-              <label htmlFor="autor_a">Autor:</label>
+              <label htmlFor="autor">Autor:</label>
               <input type="text" name="autor" id="autor" placeholder="Digite o nome do autor" onChange={(e) => setAutor(e.target.value)} />
             </div>
             <div>
