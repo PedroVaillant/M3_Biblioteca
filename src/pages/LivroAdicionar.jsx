@@ -30,7 +30,6 @@ const LivroAdicionar = () => {
 
   return (
     <div>
-      <br />
       <form onSubmit={(e) => createPost(e)} className={style.addback}>
         <h1 className={style.addtitulo}>Cadastrar um novo livro</h1>
         <div className={style.addopcoes}>
@@ -65,7 +64,6 @@ const LivroAdicionar = () => {
           <button type="submit" className={style.addbotao}><ImPlus /></button>
         </div>
       </form>
-      <br />
     </div>
   );
 };

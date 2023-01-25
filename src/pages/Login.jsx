@@ -36,10 +36,8 @@ export default function Cadastro() {
 
   return (
     <div className="reactlogin">   
-    <br />
       <form>
         <h1>Entre na sua conta</h1>
-        <br />
         <div class="form-group">
           <label for="inputUsuario"></label>
           <input
@@ -62,17 +60,12 @@ export default function Cadastro() {
             placeholder="Senha"
           />
         </div>
-        <br />
         <button type="button" className="btnentrar" onClick={validarUsuario}>Entrar</button>
-        <br />
-        <br />
         <hr />
-        <br />
         <Link to="/novaconta">
         <button className="btncriarconta">Criar uma conta</button>
         </Link>
       </form>
-      <br />
     </div>
   );
 }

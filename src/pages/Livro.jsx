@@ -8,6 +8,8 @@ import API from "../model/API";
 
 import styles from '../styles/Livro.module.css'
 
+
+
 const postDelete = async (id) => {
   await API.delete(`/livros/${id}`)
     .then(res => console.log('Deletado com Sucesso', res))
@@ -38,11 +40,8 @@ const Livro = () => {
 
   return (
     <div>
-      <br></br>
-
       {!post.titulo ? (
-      <div className={styles.loading}>
-      </div>
+      <div className={styles.loading}></div>
       ) : (
         <div className={styles.livroback}>
 
@@ -57,25 +56,20 @@ const Livro = () => {
               <button onClick={() => postDelete(post.id)} className={styles.botaoL3}><RiDeleteBin2Line /></button>
             </Link>
           </div>
-
             <img src={post.capa} className={styles.capa} />
             <h1 className={styles.titulo}>{post.titulo}</h1>
-            <h3 className={styles.genre}>{post.autor}</h3>
+            <h3 className={styles.autor}>{post.autor}</h3>
             <hr />
-            <br />
             <div className={styles.livrodescricao}>
               <label for="genero">Gênero:</label>
               <p id="genero">{post.genero}</p>
-              <br />
               <div className={styles.descricaosinopse}>
                 <label for="sinopse">Sinopse:</label>
                 <p id="sinopse">{post.sinopse}</p>
               </div>
             </div>
-
         </div>
       )}
-      <br></br>
     </div>
   );
 };

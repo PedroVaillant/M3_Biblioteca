@@ -6,6 +6,8 @@ import API from "../model/API";
 
 import styles from "../styles/Home.module.css";
 
+
+
 const Home = () => {
   const [posts, setPosts] = useState([]);
 
@@ -28,9 +30,9 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Carrossel />
-      <div className={styles.sessao1}>
+      <div className={styles.maislidos}>
         <h1>Mais Lidos</h1>
-        <div className={styles.maislidosimg1}>
+        <div className={styles.maislidosimg}>
           <Link to="/livro/1">
             <img src="https://m.media-amazon.com/images/I/51phf-WQthL._SY346_.jpg"></img>
           </Link>
@@ -41,7 +43,7 @@ const Home = () => {
             <img src="https://m.media-amazon.com/images/I/51wt58SEkUL._AC_SY1000_.jpg"></img>
           </Link>
         </div>
-        <div className={styles.maislidosimg1}>
+        <div className={styles.maislidosimg}>
           <Link to="/livro/15">
             <img src="https://m.media-amazon.com/images/I/91R8S52UP6L.jpg"></img>
           </Link>
@@ -52,31 +54,26 @@ const Home = () => {
             <img src="https://m.media-amazon.com/images/I/31sVWemoFjL._SY344_BO1,204,203,200_QL70_ML2_.jpg"></img>
           </Link>
         </div>
-        <br /><br />
         <Link to="/catalogolivros">
           <button>CONHEÇA NOSSO CATALOGO COMPLETO</button>
         </Link>
       </div>
-      <br /><br /><br />
-      <div className={styles.sessao2}>
+      <div>
         <h1>Visite nossas lojas parceiras</h1>
-        <br />
         <div className={styles.catalogolojas}>
           {posts.length === 0 ? (
-            <div className={styles.loading}></div>
+            <div></div>
           ) : (
             posts.map((post) => (
-              <div className={styles.lojas}>
+              <div className={styles.maps}>
                 <iframe src={`${post.gps}`} width="500" height="90"></iframe>
                 <h2 className={styles.nomeloja}>{post.loja}</h2>
-                <p className={styles.titulo}>{post.endereço}</p>
+                <p>{post.endereço}</p>
               </div>
             ))
           )}
         </div>
       </div>
-      <br />
-      <br />
     </div>
   );
 };

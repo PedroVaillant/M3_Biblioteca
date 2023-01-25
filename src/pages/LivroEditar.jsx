@@ -55,7 +55,6 @@ const LivroEditar = () => {
 
   return (
     <div>
-      <br /><br />
       <form onSubmit={(e) => editar(e)} className={style.editback}>
         <h1 className={style.showedit}>Editando: "{titulo}"</h1>
         <div className={style.cols}>
@@ -124,8 +123,6 @@ const LivroEditar = () => {
           </Link>
         </div>
       </form>
-
-      <br /><br /><br /><br /><br /><br /><br />
     </div>
   );
 };

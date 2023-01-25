@@ -49,7 +49,6 @@ const CatalogoLivros = () => {
           ))
         )}
       </div>
-      <br /><br />
     </div>
   );
 };

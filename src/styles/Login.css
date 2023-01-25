@@ -1,5 +1,9 @@
 .reactlogin{
-    margin: 129px 0 150px;
+    margin: 163px 0 160px;
+}
+
+.reactlogin h1{
+    margin-bottom: 20px;
 }
 
 .reactlogin form{
@@ -25,6 +29,7 @@
 }
 
 .reactlogin .btnentrar{
+    margin: 20px;
     padding: 10px;
     font-size: 20px;
     background-color: blue;
@@ -41,6 +46,7 @@
     color: black;
 }
 .reactlogin .btncriarconta{
+    margin-top: 20px;
     padding: 10px;
     font-size: 20px;
     background-color:green;
@@ -50,5 +56,6 @@
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5s;
+    
 }
 

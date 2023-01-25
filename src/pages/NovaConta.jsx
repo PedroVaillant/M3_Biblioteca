@@ -39,7 +39,6 @@ const NovaConta = () => {
               <input type="text" name="senha" id="senha" onChange={(e) => setSenha(e.target.value)} />
             </div>
           </section>
-          <br />
         </div>
           <button type="submit" className={style.btncriar}>Cadastre-se</button>
       </form>

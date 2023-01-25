@@ -1,6 +1,6 @@
 .livroback {
     background-color: #0cbccc4d;
-    margin: auto;
+    margin: 50px auto 50px;
     width: 1000px;  
     height: auto;
     padding: 15px;
@@ -8,40 +8,6 @@
     align-items: center;
     text-align: center;
     align-content: center;
-}
-
-.livro hr {
-    margin: 10px 0;
-}
-
-.livrodescricao label{
-    font-size: 35px;
-    text-align: left;
-    font-weight: bold;
-}
-
-.livrodescricao p{
-    text-align: center;
-    font-size: 30px;
-}
-
-.descricaosinopse p{
-    font-size: 25px;
-    text-align: justify;
-    padding: 0 20px 0 20px;
-}
-
-.capa {
-    margin: 30px;
-    width: auto;
-    height: 250px;
-    border-radius: 5px;
-    box-shadow: 5px 10px;
-}
-
-.titulo {
-    margin: 10px 0;
-    text-transform: uppercase;
 }
 
 .botoeslivro{
@@ -96,6 +62,48 @@
 .botaoL3:hover{
     color: white;
     background-color: black;
+}
+
+.capa {
+    margin: 30px;
+    width: auto;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 10px;
+}
+
+.titulo {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.autor{
+    padding: 0 0 20px;
+}
+
+.livrodescricao{
+    padding-top: 15px;
+}
+
+.livrodescricao label{
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.livrodescricao p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.descricaosinopse{
+    padding: 15px;
+}
+
+.descricaosinopse p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 0 20px 0 20px;
 }
 
 .loading{
