@@ -18,14 +18,10 @@ const LivroAdicionar = () => {
   const [genero, setGenero] = useState();
   const [autor, setAutor] = useState();
   const [sinopse, setSinopse] = useState();
-  // const [desconto, setPreco] = useState();
-  // const [preco, setDesconto] = useState();
-  // const [site, setSite] = useState();
-
 
   const createPost = async (e) => {
     e.preventDefault();
-    const post = { titulo, genero, autor, sinopse, capa, desconto, preco, site };
+    const post = { titulo, genero, autor, sinopse, capa };
     await API.post("/Livros", post);
     navigate("/catalogolivros");
 
@@ -57,22 +53,6 @@ const LivroAdicionar = () => {
               <label htmlFor="capa">Capa:</label>
               <input type="text" name="capa" id="capa" placeholder="Digite o link da capa" onChange={(e) => setCapa(e.target.value)} />
             </div>
-
-
-            {/* <div>
-              <label htmlFor="capa">Valor anterior:</label>
-              <input type="text" name="preco" id="preco" placeholder="Digite o valor anterior" onChange={(e) => setDesconto(e.target.value)} />
-            </div>
-            <div>
-              <label htmlFor="capa">Valor atual:</label>
-              <input type="text" name="desconto" id="desconto" placeholder="Digite o valor atual" onChange={(e) => setPreco(e.target.value)} />
-            </div>
-            <div>
-              <label htmlFor="capa">Link da página:</label>
-              <input type="text" name="site" id="site" placeholder="Digite o link da página" onChange={(e) => setSite(e.target.value)} />
-            </div> */}
-
-
           </section>
         </div>
         <div className={style.addbotoes}>
