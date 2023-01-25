@@ -16,9 +16,6 @@ const LivroEditar = () => {
   const [genero, setGenero] = useState();
   const [autor, setAutor] = useState();
   const [sinopse, setSinopse] = useState();
-  // const [desconto, setPreco] = useState();
-  // const [preco, setDesconto] = useState();
-  // const [site, setSite] = useState();
 
 
   const { id } = useParams();
@@ -34,9 +31,6 @@ const LivroEditar = () => {
       setGenero(data.genero);
       setAutor(data.autor);
       setSinopse(data.sinopse);
-      // setPreco(data.preco);
-      // setDesconto(data.desconto);
-      // setSite(data.site);
 
     }
     catch (error) {
@@ -47,7 +41,7 @@ const LivroEditar = () => {
   const editar = async (e) => {
     e.preventDefault();
 
-    const post = { capa, titulo, genero, autor, sinopse, desconto, preco, site };
+    const post = { capa, titulo, genero, autor, sinopse };
 
 
     await API.put(`/Livros/${id}`, post);
@@ -119,46 +113,6 @@ const LivroEditar = () => {
                 value={capa || ""}
               />
             </div>
-
-
-
-            {/* <div>
-              <label htmlFor="desconto">Valor atual:</label>
-              <input
-                type="text"
-                name="desconto"
-                id="desconto"
-
-                onChange={(e) => setDesconto(e.target.value)}
-                value={desconto || ""}
-              />
-            </div>
-            <div>
-              <label htmlFor="preco">Valor anterior:</label>
-              <input
-                type="text"
-                name="preco"
-                id="preco"
-
-                onChange={(e) => setPreco(e.target.value)}
-                value={preco || ""}
-              />
-            </div>
-
-            <div>
-              <label htmlFor="site">Site:</label>
-              <input
-                type="text"
-                name="site"
-                id="site"
-
-                onChange={(e) => setSite(e.target.value)}
-                value={site || ""}
-              />
-            </div> */}
-
-
-
           </section>
         </div>
         <div className={style.botoesedit}>
