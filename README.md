@@ -15,7 +15,6 @@ Nesse projeto tivemos a ideia de fazer uma ONG onde com a parceria de livrarias,
 <br>
 
 <img src="https://user-images.githubusercontent.com/113939119/214734489-9b800fb8-d3ef-4ac7-b98b-c50a677ab872.png">
-<br>
 
 ### 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
