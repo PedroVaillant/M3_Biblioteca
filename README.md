@@ -13,9 +13,9 @@
 
 ### 📰 Sobre o projeto
 Nesse projeto tivemos a ideia de fazer uma ONG onde com a parceria de livrarias, onde a administração do site adiciona livros com as suas informações (capa, título, autor, gênero e sinopse). E caso a pessoa ou ler essas informações e se interesse procure uma unidade mais perto possível e alugue esse livro sem a necessidade de comprá-lo, e que futuramente se torne um biblioteca ambulante ou virtual.
-
+<br>
 <img src="https://user-images.githubusercontent.com/113939119/214734489-9b800fb8-d3ef-4ac7-b98b-c50a677ab872.png">
-
+<br>
 ### 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
 <img align="center" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
