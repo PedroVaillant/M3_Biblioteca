@@ -6,14 +6,13 @@
 ---
 
 <img src="https://user-images.githubusercontent.com/113939119/214470755-b7208d2f-bcaa-4ad6-911e-92145e0e6db9.png" width="200" height="200" />
-<br>
 </div>
 
 ---
 
 ### 📰 Sobre o projeto
 Nesse projeto tivemos a ideia de fazer uma ONG onde com a parceria de livrarias, onde a administração do site adiciona livros com as suas informações (capa, título, autor, gênero e sinopse). E caso a pessoa ou ler essas informações e se interesse procure uma unidade mais perto possível e alugue esse livro sem a necessidade de comprá-lo, e que futuramente se torne um biblioteca ambulante ou virtual.
-<br>
+<br/>
 <img src="https://user-images.githubusercontent.com/113939119/214734489-9b800fb8-d3ef-4ac7-b98b-c50a677ab872.png">
 <br>
 ### 💻 Tecnologias utilizadas
