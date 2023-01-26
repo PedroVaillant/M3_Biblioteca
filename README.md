@@ -3,9 +3,13 @@
 
 #### Projeto em grupo do terceiro módulo, do curso Programadores Cariocas junto com a Resilia e SENAC.
 
+---
+
+<img src="https://user-images.githubusercontent.com/113939119/214470755-b7208d2f-bcaa-4ad6-911e-92145e0e6db9.png" width="150" height="150" />
+
 </div>
 
----
+
 
 ### 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
@@ -49,6 +53,8 @@
 <a href=""><img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"><a> Pamela de Oliveira Brasil
 
 ---
+
+🌐 Link para acessar o projeto: https://m3reactbooks.netlify.app
 
 # PARA QUE FUNCIONE USE ESSES COMANDOS
 ### FIZ OUTRO ARQUIVO DB PARA FICAR EDITANDO: https://m3bibliotecadb.onrender.com
