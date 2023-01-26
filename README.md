@@ -10,8 +10,8 @@
 
 ---
 
-<img src="https://user-images.githubusercontent.com/113939119/214730286-1e5d670a-e242-4a8d-92df-750b3a88cff6.png" />
-
+### 📰 Sobre o projeto
+Nesse projeto tivemos a ideia de fazer uma ONG onde com a parceria de livrarias, onde a administração do site adiciona livros com as suas informações (capa, título, autor, gênero e sinopse). E caso a pessoa ou ler essas informações e se interesse procure uma unidade mais perto possível e alugue esse livro sem a necessidade de comprá-lo, e que futuramente se torne um biblioteca ambulante ou virtual.
 
 ### 💻 Tecnologias utilizadas
 <div align="center" style="display: inline_block">
@@ -57,14 +57,3 @@
 ---
 
 🌐 Link para acessar o projeto: https://m3reactbooks.netlify.app
-
-# PARA QUE FUNCIONE USE ESSES COMANDOS
-### FIZ OUTRO ARQUIVO DB PARA FICAR EDITANDO: https://m3bibliotecadb.onrender.com
-### npm install
-### npm install axios
-### npm install react-icons (para que possa baixar os icones no footer)
-### npm install reaact-router-dom 
-### npm i react-carousel-minimal (e para fazer o carrossel funcionar) https://reactjsexample.com/easy-to-use-responsive-and-customizable-carousel-component-for-react/
-
-#Teste https://app.netlify.com/
-https://vitejs.dev/guide/static-deploy.html
