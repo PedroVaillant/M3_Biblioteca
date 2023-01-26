@@ -6,9 +6,11 @@
 ---
 
 <img src="https://user-images.githubusercontent.com/113939119/214470755-b7208d2f-bcaa-4ad6-911e-92145e0e6db9.png" width="200" height="200" />
-
 </div>
 
+---
+
+<img src="https://user-images.githubusercontent.com/113939119/214730286-1e5d670a-e242-4a8d-92df-750b3a88cff6.png" />
 
 
 ### 💻 Tecnologias utilizadas
