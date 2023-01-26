@@ -1,37 +1,34 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-
-import Carrossel from "../components/Carrossel";
-import API from "../model/API";
-
-import styles from "../styles/Home.module.css";
-
+import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
+import Carrossel from "../components/Carrossel"
+import API from "../model/API"
+import styles from "../styles/Home.module.css"
 
 
 const Home = () => {
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([])
 
   const getPosts = async () => {
     try {
-      const response = await API.get("/Livrarias");
+      const response = await API.get("/Livrarias")
 
-      const data = response.data;
+      const data = response.data
 
-      setPosts(data);
+      setPosts(data)
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   useEffect(() => {
-    getPosts();
-  }, []);
+    getPosts()
+  }, [])
 
   return (
     <div className={styles.home}>
       <Carrossel />
       <div className={styles.maislidos}>
-        <h1>Mais lidos</h1> {/* Mais procurados */}
+        <h1>Mais lidos</h1>
         <div className={styles.maislidosimg}>
           <Link to="/livro/1">
             <img src="https://m.media-amazon.com/images/I/51phf-WQthL._SY346_.jpg"></img>
@@ -59,7 +56,7 @@ const Home = () => {
         </Link>
       </div>
       <div>
-         <h1>Visite esses locais para ler esses livros</h1>  {/* Lojas parceiras */}
+         <h1>Visite esses locais para ler esses livros</h1>
         <div className={styles.catalogolojas}>
           {posts.length === 0 ? (
             <div></div>
@@ -75,7 +72,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

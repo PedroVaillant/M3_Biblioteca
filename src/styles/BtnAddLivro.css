@@ -1,9 +1,10 @@
 #btnaddlivro {
   text-align: center;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
-#btnaddlivro button{
+#btnaddlivro button {
   border: none;
   background-color: lime;
   font-size: 25px;

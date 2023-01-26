@@ -1,31 +1,27 @@
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react"
+import { Link, useNavigate } from "react-router-dom"
 import { ImPlus } from "react-icons/im"
 import { MdOutlineCleaningServices } from "react-icons/md"
 import { BiArrowBack } from "react-icons/bi"
-
-import API from "../model/API";
-
+import API from "../model/API"
 import style from "../styles/LivroAdicionar.module.css"
-
 
 const LivroAdicionar = () => {
 
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
-  const [capa, setCapa] = useState();
-  const [titulo, setTitulo] = useState();
-  const [genero, setGenero] = useState();
-  const [autor, setAutor] = useState();
-  const [sinopse, setSinopse] = useState();
+  const [capa, setCapa] = useState()
+  const [titulo, setTitulo] = useState()
+  const [genero, setGenero] = useState()
+  const [autor, setAutor] = useState()
+  const [sinopse, setSinopse] = useState()
 
   const createPost = async (e) => {
     e.preventDefault();
-    const post = { titulo, genero, autor, sinopse, capa };
-    await API.post("/Livros", post);
-    navigate("/catalogolivros");
-
-  };
+    const post = { titulo, genero, autor, sinopse, capa }
+    await API.post("/Livros", post)
+    navigate("/catalogolivros")
+  }
 
   return (
     <div>
@@ -64,7 +60,7 @@ const LivroAdicionar = () => {
         </div>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default LivroAdicionar;
+export default LivroAdicionar

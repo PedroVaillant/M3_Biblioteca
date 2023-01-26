@@ -1,26 +1,23 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-
-import API from "../model/API";
-
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"
+import API from "../model/API"
 import style from "../styles/NovaConta.module.css"
-
 
 const NovaConta = () => {
 
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
-  const [usuario, setUsuario] = useState();
-  const [senha, setSenha] = useState();
+  const [usuario, setUsuario] = useState()
+  const [senha, setSenha] = useState()
 
 
   const createPost = async (e) => {
-    e.preventDefault();
-    const post = { usuario, senha };
-    await API.post("/Usuarios", post);
-    navigate("/login");
+    e.preventDefault()
+    const post = { usuario, senha }
+    await API.post("/Usuarios", post)
+    navigate("/login")
 
-  };
+  }
 
   return (
     <div className={style.novaconta}>
@@ -43,7 +40,7 @@ const NovaConta = () => {
           <button type="submit" className={style.btncriar}>Cadastre-se</button>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default NovaConta;
+export default NovaConta

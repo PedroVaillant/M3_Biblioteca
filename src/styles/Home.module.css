@@ -1,4 +1,4 @@
-.home h1{
+.home h1 {
     text-align: center;
     background-color: #0cbccc;
     color: white;
@@ -6,19 +6,19 @@
     text-transform: uppercase;
 }
 
-.maislidos{
+.maislidos {
     text-align: center;
     margin: 0 0 50px;
 }
 
-.maislidos img{
+.maislidos img {
     width: auto;
     height: 300px;
     border-radius: 10px;
     transition: .5s;
 }
 
-.maislidos img:hover{
+.maislidos img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -26,13 +26,13 @@
     box-shadow: 5px 10px;
 }
 
-.maislidosimg{
+.maislidosimg {
     display: flex;
     justify-content: space-around;
     padding: 1rem 5rem;
 }
 
-.maislidos button{
+.maislidos button {
     border: none;
     width: 1350px;
     height: 50px;
@@ -45,7 +45,7 @@
     transition: 0.5s;
 }
 
-.maislidos button:hover{
+.maislidos button:hover {
     background-color: #0cbccc;
 }
 
@@ -65,6 +65,6 @@
     transition: 0.5s;
 }
 
-.nomeloja{
+.nomeloja {
     font-size: 20px;
 }

@@ -1,7 +1,7 @@
 .livroback {
     background-color: #0cbccc4d;
     margin: 50px auto 50px;
-    width: 1000px;  
+    width: 1000px;
     height: auto;
     padding: 15px;
     border-radius: 10px;
@@ -10,18 +10,18 @@
     align-content: center;
 }
 
-.botoeslivro{
+.botoeslivro {
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
 
-.botaoL1{
+.botaoL1 {
 
     padding: 10px;
     font-size: 20px;
-    background-color:black;
+    background-color: black;
     color: white;
     border: none;
     cursor: pointer;
@@ -29,7 +29,7 @@
     transition: 0.5s;
 }
 
-.botaoL1:hover{
+.botaoL1:hover {
     color: black;
     background-color: white;
 }
@@ -37,14 +37,14 @@
 .botaoL2 {
     padding: 10px;
     font-size: 20px;
-    background-color:yellow;
+    background-color: yellow;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5s;
 }
 
-.botaoL2:hover{
+.botaoL2:hover {
     color: white;
     background-color: yellowgreen;
 }
@@ -59,7 +59,7 @@
     transition: 0.5s;
 }
 
-.botaoL3:hover{
+.botaoL3:hover {
     color: white;
     background-color: black;
 }
@@ -77,37 +77,37 @@
     text-transform: uppercase;
 }
 
-.autor{
+.autor {
     padding: 0 0 20px;
 }
 
-.livrodescricao{
+.livrodescricao {
     padding-top: 15px;
 }
 
-.livrodescricao label{
+.livrodescricao label {
     font-size: 35px;
     text-align: left;
     font-weight: bold;
 }
 
-.livrodescricao p{
+.livrodescricao p {
     text-align: center;
     font-size: 25px;
 }
 
-.descricaosinopse{
+.descricaosinopse {
     padding: 15px;
     margin-bottom: 10px;
 }
 
-.descricaosinopse p{
+.descricaosinopse p {
     font-size: 25px;
     text-align: justify;
     padding: 0 20px 0 20px;
 }
 
-.loading{
+.loading {
     margin: auto;
     margin-top: 376px;
     margin-bottom: 230px;
@@ -121,6 +121,6 @@
 
 @keyframes is-rotating {
     to {
-      transform: rotate(1turn);
+        transform: rotate(1turn);
     }
-  }
+}

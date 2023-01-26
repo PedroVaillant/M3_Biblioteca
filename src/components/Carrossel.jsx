@@ -1,4 +1,4 @@
-import { Carousel } from 'react-carousel-minimal';
+import { Carousel } from "react-carousel-minimal"
 
 function Carrossel() {
  const data = [
@@ -12,7 +12,7 @@ function Carrossel() {
     //   image: "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/02/summer-7.jpg",
     //   caption: "Darjeeling"
     // }
-  ];
+  ]
 
   const captionStyle = {
     fontSize: '2em',
@@ -48,7 +48,7 @@ function Carrossel() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Carrossel;
+export default Carrossel

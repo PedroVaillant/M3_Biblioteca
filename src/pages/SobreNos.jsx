@@ -1,4 +1,4 @@
-import Styles from '../styles/SobreNos.css'
+import Styles from "../styles/SobreNos.css"
 
 const Sobrenos = () => {
     return (

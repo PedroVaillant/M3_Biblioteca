@@ -1,12 +1,12 @@
-.reactlogin{
+.reactlogin {
     margin: 163px 0 160px;
 }
 
-.reactlogin h1{
+.reactlogin h1 {
     margin-bottom: 20px;
 }
 
-.reactlogin form{
+.reactlogin form {
     margin: auto;
     max-width: 500px;
     padding: 50px;
@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.reactlogin input{
+.reactlogin input {
     border: none;
     border-radius: 4px;
     font-size: 20px;
@@ -24,11 +24,11 @@
     padding: 12px 20px 12px 10px;
 }
 
-.reactlogin h1{
+.reactlogin h1 {
     font-size: 45px;
 }
 
-.reactlogin .btnentrar{
+.reactlogin .btnentrar {
     margin: 20px;
     padding: 10px;
     font-size: 20px;
@@ -41,21 +41,21 @@
     transition: 0.5s;
 }
 
-.reactlogin .entrar:hover{
+.reactlogin .entrar:hover {
     background-color: rgb(51, 177, 219);
     color: black;
 }
-.reactlogin .btncriarconta{
+
+.reactlogin .btncriarconta {
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
-    background-color:green;
+    background-color: green;
     color: white;
     font-weight: bold;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5s;
-    
-}
 
+}

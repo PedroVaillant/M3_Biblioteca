@@ -1,58 +1,49 @@
-import { useState, useEffect } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useState, useEffect } from "react"
+import { useParams, useNavigate, Link } from "react-router-dom"
 import { BiSave, BiArrowBack } from "react-icons/bi"
-
-
-
-import API from "../model/API";
-
+import API from "../model/API"
 import style from "../styles/LivroEditar.module.css"
 
 const LivroEditar = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
-  const [capa, setCapa] = useState();
-  const [titulo, setTitulo] = useState();
-  const [genero, setGenero] = useState();
-  const [autor, setAutor] = useState();
-  const [sinopse, setSinopse] = useState();
+  const [capa, setCapa] = useState()
+  const [titulo, setTitulo] = useState()
+  const [genero, setGenero] = useState()
+  const [autor, setAutor] = useState()
+  const [sinopse, setSinopse] = useState()
 
-
-  const { id } = useParams();
+  const { id } = useParams()
 
   const getPost = async () => {
     try {
-      const response = await API.get(`/Livros/${id}`);
+      const response = await API.get(`/Livros/${id}`)
 
-      const data = response.data;
+      const data = response.data
 
-      setCapa(data.capa);
-      setTitulo(data.titulo);
-      setGenero(data.genero);
-      setAutor(data.autor);
-      setSinopse(data.sinopse);
+      setCapa(data.capa)
+      setTitulo(data.titulo)
+      setGenero(data.genero)
+      setAutor(data.autor)
+      setSinopse(data.sinopse)
 
     }
     catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   const editar = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    const post = { capa, titulo, genero, autor, sinopse };
-
-
-    await API.put(`/Livros/${id}`, post);
-
-    navigate("/catalogolivros");
-  };
-
+    const post = { capa, titulo, genero, autor, sinopse }
+    await API.put(`/Livros/${id}`, post)
+    navigate("/catalogolivros")
+  }
 
   useEffect(() => {
-    getPost();
-  }, []);
+    getPost()
+  }, [])
 
   return (
     <div>
@@ -125,7 +116,7 @@ const LivroEditar = () => {
         </div>
       </form>
     </div>
-  );
-};
+  )
+}
 
-export default LivroEditar;
+export default LivroEditar

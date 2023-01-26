@@ -1,35 +1,35 @@
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-
-import API from "../model/API";
-
-import "../styles/Login.css";
+import { useEffect, useState } from "react"
+import { Link, useNavigate } from "react-router-dom"
+import API from "../model/API"
+import "../styles/Login.css"
 
 export default function Cadastro() {
-  const [Usuario, setUsuario] = useState("");
-  const [Senha, setSenha] = useState("");
-  const navigate = useNavigate();
-  const [ListaUsuarios, setListaUsuarios] = useState([]);
+  const navigate = useNavigate()
+
+  const [Usuario, setUsuario] = useState("")
+  const [Senha, setSenha] = useState("")
+  const [ListaUsuarios, setListaUsuarios] = useState([])
+
   useEffect(() => {
-    API.get("/Usuarios").then((e) => setListaUsuarios(e.data));
-  }, []);
+    API.get("/Usuarios").then((e) => setListaUsuarios(e.data))
+  }, [])
 
   function UsuarioHandle(e) {
-    setUsuario(e.target.value);
+    setUsuario(e.target.value)
   }
 
   function SenhaHandle(e) {
-    setSenha(e.target.value);
+    setSenha(e.target.value)
   }
 
   function validarUsuario() {
     let e = ListaUsuarios.find(
       (usuario) => usuario.usuario === Usuario && usuario.senha === Senha
-    );
+    )
     if (e === undefined) {
-      alert("Conta não existe.");
+      alert("Conta não existe.")
     } else {
-      localStorage.setItem('logado', 'true');
+      localStorage.setItem('logado', 'true')
       navigate('/catalogolivros')
     }
   }
@@ -67,6 +67,5 @@ export default function Cadastro() {
         </Link>
       </form>
     </div>
-  );
+  )
 }
-

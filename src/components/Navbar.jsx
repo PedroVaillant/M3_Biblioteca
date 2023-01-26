@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
-import { BiSearchAlt2 } from "react-icons/bi";
-
-import Styles from '../styles/Navbar.css'
+import { Link } from "react-router-dom"
+import { BiSearchAlt2 } from "react-icons/bi"
+import Styles from "../styles/Navbar.css"
 
 const Navbar = () => {
   return (
@@ -33,7 +32,7 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

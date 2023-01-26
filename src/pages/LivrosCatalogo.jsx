@@ -1,38 +1,31 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-
-import API from "../model/API";
-
-
-import styles from '../styles/LivrosCatalogo.module.css'
-import BtnAddLivro from "../components/BtnAddLivro";
-
+import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
+import API from "../model/API"
+import BtnAddLivro from "../components/BtnAddLivro"
+import styles from "../styles/LivrosCatalogo.module.css"
 
 const CatalogoLivros = () => {
-
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([])
 
   const getPosts = async () => {
     try {
-      const response = await API.get("/Livros");
+      const response = await API.get("/Livros")
 
-      const data = response.data;
+      const data = response.data
 
-      setPosts(data);
+      setPosts(data)
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   useEffect(() => {
-    getPosts();
-  }, []);
+    getPosts()
+  }, [])
 
   return (
     <div>
       <BtnAddLivro />
-      <br />
-
       <div className={styles.catalogo}>
         {posts.length === 0 ? (
           <div className={styles.loading}>
@@ -50,7 +43,7 @@ const CatalogoLivros = () => {
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CatalogoLivros;
+export default CatalogoLivros

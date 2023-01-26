@@ -1,41 +1,37 @@
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react"
+import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import { BiEdit, BiArrowBack } from "react-icons/bi"
 import { RiDeleteBin2Line } from "react-icons/ri"
-
-import API from "../model/API";
-
-import styles from '../styles/Livro.module.css'
-
-
+import API from "../model/API"
+import styles from "../styles/Livro.module.css"
 
 const postDelete = async (id) => {
   await API.delete(`/livros/${id}`)
-    .then(res => console.log('Deletado com Sucesso', res))
+    .then(res => prompt('Deletado com Sucesso', res))
     .catch(err => console.log(err))
   setPosts(posts.filter(post => post.id !== id))
-};
+}
 
 const Livro = () => {
-  const { id } = useParams();
-  const [post, setPost] = useState([]);
+  const { id } = useParams()
+  const [post, setPost] = useState([])
 
   const getPost = async () => {
     try {
-      const response = await API.get(`/Livros/${id}`);
-      const data = response.data;
-      setPost(data);
+      const response = await API.get(`/Livros/${id}`)
+      const data = response.data
+      setPost(data)
 
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
 
   useEffect(() => {
-    getPost();
-  }, []);
+    getPost()
+  }, [])
 
 
   return (
@@ -71,7 +67,7 @@ const Livro = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Livro;
+export default Livro

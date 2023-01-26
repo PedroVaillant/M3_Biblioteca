@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 import { AiFillPlusCircle } from "react-icons/ai"
-
-import Styles from '../styles/BtnAddLivro.css'
+import Styles from "../styles/BtnAddLivro.css"
 
 const BtnAddLivro = () => {
   return (
@@ -10,7 +9,7 @@ const BtnAddLivro = () => {
           <button><AiFillPlusCircle /></button>
         </Link>
     </div>
-  );
-};
+  )
+}
 
-export default BtnAddLivro;
+export default BtnAddLivro
