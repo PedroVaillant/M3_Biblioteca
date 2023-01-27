@@ -8,7 +8,7 @@ import styles from "../styles/Livro.module.css"
 
 const postDelete = async (id) => {
   await API.delete(`/livros/${id}`)
-    .then(res => prompt('Deletado com Sucesso', res))
+    .then(res => alert('Deletado com Sucesso', res))
     .catch(err => console.log(err))
   setPosts(posts.filter(post => post.id !== id))
 }
