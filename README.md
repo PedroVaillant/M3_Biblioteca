@@ -1,7 +1,7 @@
 # 📚 Projeto: Sendo servido
 <div align="center" style="display: inline_block">
 
-#### Projeto em grupo do terceiro módulo, do curso Programadores Cariocas junto com a Resilia e SENAC.
+#### Projeto em grupo do 3º módulo, do curso Full-Stack Programadores Cariocas junto com a Resilia e SENAC.
 
 ---
 
